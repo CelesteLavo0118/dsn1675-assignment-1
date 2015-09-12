@@ -1,11 +1,108 @@
-@viewport { width: device-width; scale: 1; }
-
 html {
   box-sizing: border-box;
+  text-size-adjust: 100%;
+  margin:0 auto;
 }
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-text-size-adjust: 100%;
+body{
+  margin:0;
+}
+
+img{
+  width:100%;
+}
+
+#logo{
+  width:30%;
+  float:left;
+  padding: 2rem;
+
+}
+nav a{
+  display:inline-block;
+  background-color:white;
+  text-decoration: none;
+  color:black;
+  border:0.1rem solid #111111;
+  padding:0.5rem;
+  width:100%;
+
+}
+
+nav a:hover{
+  background-color:lightgrey;
+}
+
+nav{
+  width:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
+nav li{
+  display:inline;
+  width:50%;
+  float:left;
+}
+
+nav ol{
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  padding-top:2rem;
+  text-align:center;
+  margin:auto;
+  font-size:30px;
+}
+
+.banner{
+  position:relative;
+}
+
+.banner-img{
+  width:100%;
+}
+
+h2{
+  color:black;
+  width:100%;
+  text-align:center;
+  margin:auto;
+  font-size:25px;
+}
+
+h3{
+  margin:auto;
+  text-align:center;
+}
+
+p{
+  margin:auto;
+  text-align:center;
+}
+
+.banner-text{
+  color:white;
+  width:100%;
+  text-align:center;
+  margin:auto;
+  font-size:25px;
+  position:absolute;
+  bottom:2.5em;
+}
+
+.banner-text-2{
+  color:white;
+  width:100%;
+  text-align:center;
+  margin:auto;
+  position:absolute;
+  bottom:1em;
+}
